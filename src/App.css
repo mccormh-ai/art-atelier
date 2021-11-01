@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+input, ul.submenu {
+  display: none;
+  list-style:none;
+  text-decoration: none;
+  font-weight: bolder;
+  margin-top: 15px;
+  
+}
+
+/*position the label*/
+label {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  background: black;
+  width: 100px;
+  color: white;
+  padding: 20px;
+  font-weight: bolder;
+
+  
+}
+
+/*show the submenu when input is checked*/
+input:checked~ul.submenu {
+  display: block;
+}
