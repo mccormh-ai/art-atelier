@@ -18,7 +18,6 @@ function App() {
       <Filters selectedArtist={selectedArtist} setSelectedArtist={setSelectedArtist} />
       <ImageGrid selectedArtist={selectedArtist} setSelectedImg={setSelectedImg}/>
       {selectedImg && <Modal selectedImg = {selectedImg} setSelectedImg={setSelectedImg}/>}
-      <p>Hello</p>
     </div>
   );
 }
